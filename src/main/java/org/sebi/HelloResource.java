@@ -33,6 +33,6 @@ public class HelloResource {
     @Path("/fr")
     @Produces(MediaType.TEXT_PLAIN)
     public String bonjour() {
-        return "Bonjour la Suisse!";
+        return "Bonjour la Suisse!!";
     }
 }
